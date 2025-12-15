@@ -1,0 +1,76 @@
+---
+title: "DRP presentation"
+format: revealjs
+scrollable: true
+embed-resources: true
+theme: serif
+---
+
+## Fundamentals of Prediction
+
+- Attributes/covariates: $X \in \chi$
+- Label/target: $Y \in \Upsilon$
+- Function/predictor: $f(x)$
+- Loss: $l(y, f(x))$
+  - Eg. 0, 1 - loss, Brier loss
+- Risk: $R(f) = E[l(y, f(x))]$
+  - Eg. in regression case $R(f) = MSE = E[(Y-f(x))^2]$
+- Goal: $\arg \min_{f} R[f]$
+
+## Risk Minimization:
+
+- To find risk need to choose two functions:
+  1. loss function 
+  
+      (e.g. $l(y, f(x)) = (Y-f(x))^2$)
+    
+  2. prediction function $f(x)$
+- Risk Minimization: $\arg \min_{f \in F} R[f]$
+  - need to define a function class F
+  - e.g. simple, multiple linear, logistic, etc.
+- Empirical risk minimization (ERM)
+
+
+## Dataset
+
+- $\beta^{*} = (X^{T}X)^{-1}X^{T}Y$
+
+
+## Gradient Descent
+
+- $\min_{\beta} ||Y-X\beta||^2 = \min_{\beta} Y^TY - 2X^TY\beta + \beta^TX^TX\beta$
+
+- $\Phi(w) = w^TQw - P^Tw + r$
+
+  - where $P =  2X^TY$ and $Q = 2X^TX$
+  
+- $\nabla \Phi(w) = Qw - P$
+
+- Goal: find optimal $w*$ st. $\nabla \Phi(w*) = 0$
+
+- Gradient Descent: $w_{t+1} = w_t -\alpha\nabla \Phi(w_t)$
+
+- learning rate $\alpha$
+
+## SGD
+
+- $w_{t+1} = w_t - \alpha_t \nabla l_{w_{t}}(f(x_i), y_i)$
+
+  - $i$ is random, i.e. a random sample select from the dataset
+  - update weight after each point, n * epoch updates
+  
+- Mini-batch: update the weight after m examples, $\frac{n}{m} * epoch$ updates 
+  - $w_{k+1} = w_k - \alpha_k \frac{1}{m} \sum_{j \in batch_k}\nabla l_{w_{k}}(f(x_j,w_k), y_i)$
+  
+- Shuffling: sampling each gradient with replacement
+
+- Step decay: suppose $\alpha_0 = 0.001$, $\alpha_t = \alpha_0 \gamma^t$, $\gamma = 0.9$
+
+## Generalization
+
+- $\widehat{f} = \arg \min_{f\in F} R_s(f)$ via optimization
+
+- Goal: $f^{*} = \arg \min_{f\in F} R(f)$ population
+
+- $R(\widehat{f}) = R_s(\widehat{f}) + (R(\widehat{f}) - R_s(\widehat{f}))$
+    

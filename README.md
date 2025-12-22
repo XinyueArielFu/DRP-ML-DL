@@ -55,7 +55,7 @@ Topics implemented in practice code include:
 - Activation functions  
 - Optimization algorithms  
 - Regularization methods  
-- CNNs, RNNs, and other core architectures (as learning progresses)
+- CNNs, RNNs, Transformers, self-attention and other core architectures (as learning progresses)
 
 ---
 

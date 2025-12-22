@@ -8,7 +8,7 @@ This repository combines two components of my independent study and research dur
    All DRP materials—including my final presentation and final write-up—are located in the `DRP/` folder.
 
 2. **Deep Learning Tutorial Practice**  
-   My practice code while self-learning the UW–Madison *Introduction to Deep Learning* course taught by **Sebastian Raschka** on YouTube.  
+   My practice code while self-learning the UW–Madison *Introduction to Deep Learning* course taught by Professor **Sebastian Raschka** on YouTube.  
    Playlist: https://www.youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51
 
 ---
@@ -18,7 +18,7 @@ This repository combines two components of my independent study and research dur
 **DRP Info Page:**  
 https://spa-drp.github.io///past-projects/2025-autumn/
 
-This DRP is a guided reading of *Patterns, Predictions, and Actions*, focusing on key ideas in statistical decision-making and machine learning.  
+This DRP is a guided reading of the textbook *Patterns, Predictions, and Actions: A Story About Machine Learning* by Moritz Hardt and Benjamin Recht (https://mlstory.org/), which is based on a condensed version of Prof. Benjamin Recht’s graduate-level Machine Learning course at UC Berkeley. The project focuses on foundational ideas in statistical decision-making and machine learning. I will continue this project in Winter 2026 and will also delve deeper into Deep Learning.  
 Topics studied include:
 
 - Prediction and evaluation of predictive models  
@@ -31,13 +31,7 @@ Topics studied include:
 
 - Final presentation slides  
 - Final write-up  
-- Additional notes, exercises, and implementation files
-
-### Prerequisites (from official DRP description)
-
-- At least one course in probability and statistics  
-- Comfort with programming in R or Python  
-- The level of the DRP is flexible and adjusted to the student
+- Additional notes, exercises, and implementation
 
 ---
 

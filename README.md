@@ -1,6 +1,6 @@
 # Statistical DRP (Patterns, Predictions, and Actions) & Deep Learning Practice
 
-This repository combines two components of my independent study and research during Autumn 2025:
+This repository combines two components of my independent study and research during Summer & Autumn 2025 and Winter 2026:
 
 1. **Statistics DRP: Patterns, Predictions, and Actions**  
    Mentor: **Ronan Perry**  

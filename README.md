@@ -9,7 +9,7 @@ This repository combines two components of my independent study and research dur
 
 2. **Deep Learning Tutorial Practice**  
    My practice code while self-learning the UW–Madison *Introduction to Deep Learning* course taught by **Sebastian Raschka** on YouTube.  
-   Playlist: https://www.youtube.com/watch?v=-IHxe4-09e4&list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&index=106
+   Playlist: https://www.youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51
 
 ---
 

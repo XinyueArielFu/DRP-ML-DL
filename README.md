@@ -59,6 +59,23 @@ Topics implemented in practice code include:
 - **UW Statistics DRP Program**  
 - **Sebastian Raschka**, for publicly available deep learning lectures
 
+--
 
-## Repository Structure
+## Repository Overview
+
+- `DRP/` — Directed Reading Program materials (slides, write-up, notes)
+- `deep-learning-practice/` — Deep learning tutorial notebooks and scripts
+
+
+--
+
+### GitHub Account Note
+
+This repository may show contributions from two GitHub accounts that both belong to me:
+
+- **XinyueArielFu (fxyariel)** — my personal GitHub account  
+- **ArielFuXinyue (Xinyuf3)** — my University of Washington–registered GitHub account, required for certain course projects
+
+Both accounts represent my own work. The university account is used to comply with course and institutional requirements.
+
 

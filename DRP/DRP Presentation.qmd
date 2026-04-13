@@ -6,6 +6,17 @@ embed-resources: true
 theme: serif
 ---
 
+## Takeaways
+
+- Data thinning is an alternative approach of data splitting
+- Under linear regression setting, the data thinning estimator $\hat{\beta}_{DT}$ remains unbiased, with increased variance
+- Risk estimation is biased
+  - $\frac{\sigma^2}{\gamma^2} + \frac{\sigma^2 \gamma^2 p}{n}$
+  
+- We hope to continue research on models beyond linear regression such as logistic regression, or other more complex models
+
+
+
 ## Fundamentals of Prediction
 
 - Attributes/covariates: $X \in \chi$
